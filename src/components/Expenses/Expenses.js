@@ -6,7 +6,7 @@ import ExpensesList from "./ExpensesList";
 import "./Expenses.css";
 
 const Expenses = ({ expenses }) => {
-  const [filteredYear, setFilteredYear] = useState("2020");
+  const [filteredYear, setFilteredYear] = useState("2022");
   const filteredChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
   };
